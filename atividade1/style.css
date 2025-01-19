@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5% 0 5% 0;
+    text-shadow: 2px 1px 2px #bbb;
+    font-size: 20px;
+}
+
+#headText {
+    color: #006eff;
+    text-shadow: 1px 2px 2px #000;
+    margin-bottom: 15px;
+}
+
+.redirectLink {
+    font-weight: bold;
+    background-color: #c5a3e4c2;
+    padding: 12px 12px 14px 12px;
+    border-radius: 4px;
+    transition: .3s;
+}
+.redirectLink:hover {
+    color: #c5a3e4c2;
+    background-color: #551a8b;
+    text-decoration: none;
+    text-shadow: none;
+    transform: scale(1.1);
+}
