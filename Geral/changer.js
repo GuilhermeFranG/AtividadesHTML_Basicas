@@ -8,6 +8,6 @@ pageSelector.addEventListener("change", function () {
 
     if (selectedValue) {
         // Redirecionar para a URL
-        window.open(selectedValue, "_blank");
+        window.location.href = selectedValue;
     }
 });
